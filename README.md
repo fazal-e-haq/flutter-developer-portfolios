@@ -68,9 +68,15 @@ Jump straight to developers from your region or find international talent:
 
 | Developer | Portfolio | Code | Focus & Highlights |
 |---|---|:---:|---|
+| **Craig Labenz** | [craiglabenz.com](https://craiglabenz.com) | [GitHub](https://github.com/craiglabenz) | Former Google Flutter DevRel • *Observable Flutter* Host |
+| **Eric Windmill** | [ericwindmill.com](https://ericwindmill.com) | [GitHub](https://github.com/ericwindmill) | Author of *Flutter in Action* • Founder of Flutter by Example |
+| **Felix Angelov** | [felangel](https://github.com/felangel) | [GitHub](https://github.com/felangel) | Creator of **BLoC** State Management • VGV Principal |
+| **Gabriel Ratener** | [gabrielratener.github.io](https://gabrielratener.github.io/) | [GitHub](https://github.com/gabrielratener) | High-Performance Cross-Platform Flutter Apps |
+| **Helen Xu Yang** | [helenxuyang.github.io](https://helenxuyang.github.io) | [GitHub](https://github.com/helenxuyang) | Cornell DTI Flutter Developer • Interactive Mobile Apps |
+| **Luke Pighetti** | [lukepighetti.com](https://lukepighetti.com) | [GitHub](https://github.com/lukepighetti) | Flutter Animations • Creator of `sprung` & UI Libraries |
+| **Mario Bolaños** | [mariobrubio.github.io](https://mariobrubio.github.io) | [GitHub](https://github.com/mariobrubio) | Cross-Platform Flutter Mobile & Web Engineer |
 | **Mitch Koko** | [mitchkoko.app](https://mitchkoko.app) | [GitHub](https://github.com/mitchkoko) | Flutter Educator • App Monetization & Clean UI |
 | **Rody Davis** | [rodydavis.com](https://rodydavis.com) | [GitHub](https://github.com/rodydavis) | Flutter Web & Desktop Engineer • Canvas Graphics |
-| **Felix Angelov** | [felangel](https://github.com/felangel) | [GitHub](https://github.com/felangel) | Creator of **BLoC** State Management • VGV Principal |
 
 ---
 
