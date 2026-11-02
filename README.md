@@ -287,5 +287,5 @@ We welcome all **Flutter & Dart developers**! To get listed:
 ---
 
 <div align="center">
-  <sub>Maintained with 💙 by the Flutter Community. Star ⭐ this repo if you found inspiration for your next portfolio!</sub>
+  <sub>Maintained with 💙 by the Flutter Community. Don't forget to star ⭐ this repository!</sub>
 </div>
