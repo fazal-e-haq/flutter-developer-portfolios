@@ -22,243 +22,243 @@ Jump straight to developers from your region or find international talent:
 
 ## PAKISTAN
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Fazal-e-Haq** | [fazal-portfolio.web.app](https://fazal-portfolio.web.app) | Mobile & Web Apps • Flutter • Firebase • Interactive UI |
-| **Muhammad Hamza** | [mhmz.dev](https://mhmz.dev) | AI & Product Engineer • Flutter Community Lead • Dart |
-| **Huzaifa Altaf** | [huzaifaaltaf.tech](https://huzaifaaltaf.tech) | Senior Flutter Developer • Clean Architecture • BLoC |
-| **Hamad Anwar** | [Portfolio Repo](https://github.com/Hamad-Anwar/Flutter-Responsive-Portfolio-WebApp) | Flutter Responsive Web App • Multi-device scaling |
-| **Inam Ullah** | [inamullah06.github.io](https://inamullah06.github.io) | Mobile App Developer • Dart • State Management |
-| **Tauqeer Ahmed** | [tauqeerkhattak.github.io](https://tauqeerkhattak.github.io) | Full Stack & Flutter Developer • Golang • Android |
-| **Usman Ghias** | [usman.codcrafters.org](https://usman.codcrafters.org) | Full Stack & Flutter Developer • ERP & Mobile |
-| **Waleed Arshad** | [wal33d006](https://github.com/wal33d006) | Flutter GDE • Author of *Managing State in Flutter* |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Fazal-e-Haq** | [fazal-portfolio.web.app](https://fazal-portfolio.web.app) | [GitHub](https://github.com/fazal-e-haq) | Mobile & Web Apps • Flutter • Firebase • Interactive UI |
+| **Muhammad Hamza** | [mhmz.dev](https://mhmz.dev) | [GitHub](https://github.com/mhmzdev) | AI & Product Engineer • Flutter Community Lead • Dart |
+| **Huzaifa Altaf** | [huzaifaaltaf.tech](https://huzaifaaltaf.tech) | [GitHub](https://github.com/Huzaifa-Altaf) | Senior Flutter Developer • Clean Architecture • BLoC |
+| **Hamad Anwar** | [Demo](https://github.com/Hamad-Anwar/Flutter-Responsive-Portfolio-WebApp) | [Source](https://github.com/Hamad-Anwar/Flutter-Responsive-Portfolio-WebApp) | Flutter Responsive Web App • Multi-device scaling |
+| **Inam Ullah** | [inamullah06.github.io](https://inamullah06.github.io) | [GitHub](https://github.com/inamullah06) | Mobile App Developer • Dart • State Management |
+| **Tauqeer Ahmed** | [tauqeerkhattak.github.io](https://tauqeerkhattak.github.io) | [GitHub](https://github.com/tauqeerkhattak) | Full Stack & Flutter Developer • Golang • Android |
+| **Usman Ghias** | [usman.codcrafters.org](https://usman.codcrafters.org) | [GitHub](https://github.com/usmanghias) | Full Stack & Flutter Developer • ERP & Mobile |
+| **Waleed Arshad** | [Profile](https://github.com/wal33d006) | [GitHub](https://github.com/wal33d006) | Flutter GDE • Author of *Managing State in Flutter* |
 
 ---
 
 ## INDIA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Mudit Purohit** | [muditpurohit.tech](https://muditpurohit.tech) | Material 3 Expressive Design • Flutter Web • Supabase |
-| **Aditya Thakur** | [Portfolio Repo](https://github.com/adityathakurxd/flutter_portfolio) | Flutter Educator • Responsive Web Template |
-| **Pooja Bhaumik** | [poojabhaumik.com](https://poojabhaumik.com) | Google Developer Expert (GDE) • Mobile App Architect |
-| **Meet Prajapati** | [meetprajapati.com](https://meetprajapati.com) | Lead Mobile Engineer • Android & Flutter Architecture |
-| **Vivek Yadav** | [Portfolio Repo](https://github.com/VVK027/flutter_portfolio) | Dynamic JSON Portfolio • Riverpod • GoRouter |
-| **Yashas Majmudar** | [yashashm.dev](https://yashashm.dev) | Flutter Developer • AI & Full-Stack Systems |
-| **Zeel Bhanderi** | [zeelbhanderi.netlify.app](https://zeelbhanderi.netlify.app) | Flutter & FlutterFlow Specialist • Fast Prototyping |
-| **Purnendu Samanta** | [purnendusamanta.github.io](https://purnendusamanta.github.io/MyPortfolio/) | Android & Cross-Platform Mobile Engineer |
-| **Chrisbin Sunny** | [chrishub](https://github.com/chrisbinsunny/chrishub) | macOS Big Sur Interactive Desktop Simulator in Flutter |
-| **Giridharan S** | [Portfolio Repo](https://github.com/GiridharanS1729/flutter-portfolio) | Modern Animated Portfolio • UI/UX Specialist |
-| **Tushar Nikam** | [champ96k.com](https://github.com/champ96k/champ96k.com) | Flutter Web & Mobile Engineering |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Mudit Purohit** | [muditpurohit.tech](https://muditpurohit.tech) | [Source](https://github.com/Mudit200408/Material3E-Portfolio-Website) | Material 3 Expressive Design • Flutter Web • Supabase |
+| **Aditya Thakur** | [Demo](https://github.com/adityathakurxd/flutter_portfolio) | [Source](https://github.com/adityathakurxd/flutter_portfolio) | Flutter Educator • Responsive Web Template |
+| **Pooja Bhaumik** | [poojabhaumik.com](https://poojabhaumik.com) | [GitHub](https://github.com/poojabhaumik) | Google Developer Expert (GDE) • Mobile App Architect |
+| **Meet Prajapati** | [meetprajapati.com](https://meetprajapati.com) | [GitHub](https://github.com/meetprajapati) | Lead Mobile Engineer • Android & Flutter Architecture |
+| **Vivek Yadav** | [Demo](https://github.com/VVK027/flutter_portfolio) | [Source](https://github.com/VVK027/flutter_portfolio) | Dynamic JSON Portfolio • Riverpod • GoRouter |
+| **Yashas Majmudar** | [yashashm.dev](https://yashashm.dev) | [GitHub](https://github.com/yashashm) | Flutter Developer • AI & Full-Stack Systems |
+| **Zeel Bhanderi** | [zeelbhanderi.netlify.app](https://zeelbhanderi.netlify.app) | [GitHub](https://github.com/zeelbhanderi) | Flutter & FlutterFlow Specialist • Fast Prototyping |
+| **Purnendu Samanta** | [purnendusamanta.github.io](https://purnendusamanta.github.io/MyPortfolio/) | [GitHub](https://github.com/purnendusamanta) | Android & Cross-Platform Mobile Engineer |
+| **Chrisbin Sunny** | [chrishub](https://github.com/chrisbinsunny/chrishub) | [Source](https://github.com/chrisbinsunny/chrishub) | macOS Big Sur Interactive Desktop Simulator in Flutter |
+| **Giridharan S** | [Demo](https://github.com/GiridharanS1729/flutter-portfolio) | [Source](https://github.com/GiridharanS1729/flutter-portfolio) | Modern Animated Portfolio • UI/UX Specialist |
+| **Tushar Nikam** | [champ96k.com](https://github.com/champ96k/champ96k.com) | [Source](https://github.com/champ96k/champ96k.com) | Flutter Web & Mobile Engineering |
 
 ---
 
 ## BANGLADESH
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Razu Ahmed** | [razuahmed75.github.io](https://razuahmed75.github.io) | Senior Flutter Developer • Payment Gateways • CI/CD |
-| **NM Kawcher** | [nmkawcher.github.io](https://nmkawcher.github.io) | Senior Mobile Engineer • 30+ Shipped Apps • Fintech |
-| **Sadikur Rahman Sifat** | [sadikur-sifat.github.io](https://sadikur-sifat.github.io) | Clean Architecture • SOLID • Firebase & REST APIs |
-| **Md. Rahimujjaman Rahim** | [rahimuj570.github.io](https://rahimuj570.github.io) | Flutter Mobile Developer • Material Design UI |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Razu Ahmed** | [razuahmed75.github.io](https://razuahmed75.github.io) | [GitHub](https://github.com/razuahmed75) | Senior Flutter Developer • Payment Gateways • CI/CD |
+| **NM Kawcher** | [nmkawcher.github.io](https://nmkawcher.github.io) | [GitHub](https://github.com/nmkawcher) | Senior Mobile Engineer • 30+ Shipped Apps • Fintech |
+| **Sadikur Rahman Sifat** | [sadikur-sifat.github.io](https://sadikur-sifat.github.io) | [GitHub](https://github.com/sadikur-sifat) | Clean Architecture • SOLID • Firebase & REST APIs |
+| **Md. Rahimujjaman Rahim** | [rahimuj570.github.io](https://rahimuj570.github.io) | [GitHub](https://github.com/rahimuj570) | Flutter Mobile Developer • Material Design UI |
 
 ---
 
 ## UNITED STATES
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Mitch Koko** | [mitchkoko.app](https://mitchkoko.app) | Flutter Educator • App Monetization & Clean UI |
-| **Rody Davis** | [rodydavis.com](https://rodydavis.com) | Flutter Web & Desktop Engineer • Canvas Graphics |
-| **Felix Angelov** | [felangel](https://github.com/felangel) | Creator of **BLoC** State Management • VGV Principal |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Mitch Koko** | [mitchkoko.app](https://mitchkoko.app) | [GitHub](https://github.com/mitchkoko) | Flutter Educator • App Monetization & Clean UI |
+| **Rody Davis** | [rodydavis.com](https://rodydavis.com) | [GitHub](https://github.com/rodydavis) | Flutter Web & Desktop Engineer • Canvas Graphics |
+| **Felix Angelov** | [felangel](https://github.com/felangel) | [GitHub](https://github.com/felangel) | Creator of **BLoC** State Management • VGV Principal |
 
 ---
 
 ## GERMANY
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Pascal Welsch** | [pascalwelsch.com](https://pascalwelsch.com) | Flutter GDE • Wiredash Co-founder • Tooling |
-| **Till Friebe** | [friebetill.github.io](https://friebetill.github.io) | Software Engineer • Creator of TubeCards (Flutter) |
-| **Esra Kadah** | [esrakadah](https://github.com/esrakadah) | Flutter GDE • Co-author *Flutter Design Patterns* |
-| **Brian Egan** | [brianegan](https://github.com/brianegan) | Flutter Architecture Samples • Redux for Dart |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Pascal Welsch** | [pascalwelsch.com](https://pascalwelsch.com) | [GitHub](https://github.com/passsy) | Flutter GDE • Wiredash Co-founder • Tooling |
+| **Till Friebe** | [friebetill.github.io](https://friebetill.github.io) | [GitHub](https://github.com/friebetill) | Software Engineer • Creator of TubeCards (Flutter) |
+| **Esra Kadah** | [esrakadah](https://github.com/esrakadah) | [GitHub](https://github.com/esrakadah) | Flutter GDE • Co-author *Flutter Design Patterns* |
+| **Brian Egan** | [brianegan](https://github.com/brianegan) | [GitHub](https://github.com/brianegan) | Flutter Architecture Samples • Redux for Dart |
 
 ---
 
 ## UNITED KINGDOM
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Muhammad Ghufran Naseer** | [muhammadghufrannaseer.github.io](https://muhammadghufrannaseer.github.io) | Full Stack & Cross-Platform Mobile Engineer |
-| **Ashish Mandaliya** | [ashishmandaliya.github.io](https://ashishmandaliya.github.io) | Senior Mobile Engineer • Flutter, iOS & Android |
-| **Simon Lightfoot** | [devangels.london](https://www.devangels.london) | *The Boring Flutter Show* Co-host • Flutter Architect |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Muhammad Ghufran Naseer** | [muhammadghufrannaseer.github.io](https://muhammadghufrannaseer.github.io) | [GitHub](https://github.com/muhammadghufrannaseer) | Full Stack & Cross-Platform Mobile Engineer |
+| **Ashish Mandaliya** | [ashishmandaliya.github.io](https://ashishmandaliya.github.io) | [GitHub](https://github.com/ashishmandaliya) | Senior Mobile Engineer • Flutter, iOS & Android |
+| **Simon Lightfoot** | [devangels.london](https://www.devangels.london) | [GitHub](https://github.com/slightfoot) | *The Boring Flutter Show* Co-host • Flutter Architect |
 
 ---
 
 ## EGYPT
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Salah Yasser** | [salahyasser.github.io](https://salahyasser.github.io) | Clean Architecture • BLoC • RTL & Bilingual Apps |
-| **Mina Nabil** | [mina-nabil-dev.github.io](https://mina-nabil-dev.github.io) | Mobile & Web Flutter Apps • Supabase Integration |
-| **Ahmed Ghaly** | [Portfolio Repo](https://github.com/ahmedghaly15/Personal-Portfolio) | Responsive Web Portfolio • Dart & Flutter |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Salah Yasser** | [salahyasser.github.io](https://salahyasser.github.io) | [GitHub](https://github.com/salahyasser) | Clean Architecture • BLoC • RTL & Bilingual Apps |
+| **Mina Nabil** | [mina-nabil-dev.github.io](https://mina-nabil-dev.github.io) | [GitHub](https://github.com/mina-nabil-dev) | Mobile & Web Flutter Apps • Supabase Integration |
+| **Ahmed Ghaly** | [Demo](https://github.com/ahmedghaly15/Personal-Portfolio) | [Source](https://github.com/ahmedghaly15/Personal-Portfolio) | Responsive Web Portfolio • Dart & Flutter |
 
 ---
 
 ## NIGERIA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Desmond Sanctity** | [Portfolio Repo](https://github.com/DesmondSanctity/flutter-dev-portfolio) | Clean Modular Portfolio Template for Flutter Devs |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Desmond Sanctity** | [Demo](https://github.com/DesmondSanctity/flutter-dev-portfolio) | [Source](https://github.com/DesmondSanctity/flutter-dev-portfolio) | Clean Modular Portfolio Template for Flutter Devs |
 
 ---
 
 ## GHANA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **David Cobbina** | [davidcobbina.com](https://davidcobbina.com) | Creator of *Aerium* • Award-grade Flutter Web Design |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **David Cobbina** | [davidcobbina.com](https://davidcobbina.com) | [Source](https://github.com/david-legend/aerium) | Creator of *Aerium* • Award-grade Flutter Web Design |
 
 ---
 
 ## BRAZIL
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Adriel de Souza** | [adrieldesouza.github.io](https://adrieldesouza.github.io) | Multi-platform Mobile Developer • Flutter & Swift |
-| **Gabriel Bazante** | [gabrielbazante.github.io](https://gabrielbazante.github.io) | Mobile App Developer • Flutter Cross-Platform |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Adriel de Souza** | [adrieldesouza.github.io](https://adrieldesouza.github.io) | [GitHub](https://github.com/adrieldesouza) | Multi-platform Mobile Developer • Flutter & Swift |
+| **Gabriel Bazante** | [gabrielbazante.github.io](https://gabrielbazante.github.io) | [GitHub](https://github.com/gabrielbazante) | Mobile App Developer • Flutter Cross-Platform |
 
 ---
 
 ## ITALY
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Arcangelo Massari** | [arcangelo7.github.io/portfolio](https://arcangelo7.github.io/portfolio/) | Cross-Platform Material 3 Portfolio • Web & Desktop |
-| **Andrea Bizzotto** | [codewithandrea.com](https://codewithandrea.com) | Flutter GDE • Architecture Specialist & Educator |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Arcangelo Massari** | [arcangelo7.github.io/portfolio](https://arcangelo7.github.io/portfolio/) | [Source](https://github.com/arcangelo7/portfolio) | Cross-Platform Material 3 Portfolio • Web & Desktop |
+| **Andrea Bizzotto** | [codewithandrea.com](https://codewithandrea.com) | [GitHub](https://github.com/bizz84) | Flutter GDE • Architecture Specialist & Educator |
 
 ---
 
 ## FRANCE
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Mahdi Saiah** | [mahdisaiah.github.io](https://mahdisaiah.github.io) | Product Designer & Developer • Flutter & Supabase |
-| **Romain Rastel** | [letsar](https://github.com/letsar) | Open-Source Author • `flutter_staggered_grid_view` |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Mahdi Saiah** | [mahdisaiah.github.io](https://mahdisaiah.github.io) | [GitHub](https://github.com/mahdisaiah) | Product Designer & Developer • Flutter & Supabase |
+| **Romain Rastel** | [Profile](https://github.com/letsar) | [GitHub](https://github.com/letsar) | Open-Source Author • `flutter_staggered_grid_view` |
 
 ---
 
 ## TURKEY
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Emre Akçadağ** | [akcadag.dev](https://akcadag.dev) | Mobile Developer • Native Android & Flutter |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Emre Akçadağ** | [akcadag.dev](https://akcadag.dev) | [GitHub](https://github.com/akcadag) | Mobile Developer • Native Android & Flutter |
 
 ---
 
 ## VIETNAM
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Tien Truong (Mars)** | [marstruong.com](https://marstruong.com) | Flutter Developer • Cross-Platform Mobile Apps |
-| **ChickyHuynh** | [chickyhuynhprojects.xo.je](https://chickyhuynhprojects.xo.je) | Flutter Mobile & Web Projects Showcase |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Tien Truong (Mars)** | [marstruong.com](https://marstruong.com) | [GitHub](https://github.com/marstruong) | Flutter Developer • Cross-Platform Mobile Apps |
+| **ChickyHuynh** | [chickyhuynhprojects.xo.je](https://chickyhuynhprojects.xo.je) | [GitHub](https://github.com/ChickyHuynh) | Flutter Mobile & Web Projects Showcase |
 
 ---
 
 ## PHILIPPINES
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Daven Alajid** | [garlicbread.space](https://www.garlicbread.space) | Web & Mobile Developer • Flutter & Laravel |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Daven Alajid** | [garlicbread.space](https://www.garlicbread.space) | [GitHub](https://github.com/davennn) | Web & Mobile Developer • Flutter & Laravel |
 
 ---
 
 ## INDONESIA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Anugrah Surya Putra** | [downormal.dev](https://downormal.dev) | Mobile Engineer • Flutter & Kotlin Multiplatform |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Anugrah Surya Putra** | [downormal.dev](https://downormal.dev) | [GitHub](https://github.com/downormal) | Mobile Engineer • Flutter & Kotlin Multiplatform |
 
 ---
 
 ## NEPAL
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Aakash Rajbanshi** | [aakashrajbanshi.com.np](https://aakashrajbanshi.com.np) | Flutter Developer • Clean Architecture & State |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Aakash Rajbanshi** | [aakashrajbanshi.com.np](https://aakashrajbanshi.com.np) | [GitHub](https://github.com/aakashrajbanshi) | Flutter Developer • Clean Architecture & State |
 
 ---
 
 ## SRI LANKA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Chamindu Wn** | [chamindu-wn.vercel.app](https://chamindu-wn.vercel.app) | Full Stack & Mobile App Developer • Flutter |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Chamindu Wn** | [chamindu-wn.vercel.app](https://chamindu-wn.vercel.app) | [GitHub](https://github.com/chamindu-wn) | Full Stack & Mobile App Developer • Flutter |
 
 ---
 
 ## SWEDEN
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Lukas Klingsbo** | [lukas.fyi](https://lukas.fyi) | Flutter GDE • Supabase SDK • Creator of **Flame Engine** |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Lukas Klingsbo** | [lukas.fyi](https://lukas.fyi) | [GitHub](https://github.com/spydon) | Flutter GDE • Supabase SDK • Creator of **Flame Engine** |
 
 ---
 
 ## LITHUANIA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Mangirdas Kazlauskas** | [kazlauskas.dev](https://kazlauskas.dev) | Flutter GDE • Author of *Flutter Design Patterns* |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Mangirdas Kazlauskas** | [kazlauskas.dev](https://kazlauskas.dev) | [GitHub](https://github.com/mkobuolys) | Flutter GDE • Author of *Flutter Design Patterns* |
 
 ---
 
 ## CZECH REPUBLIC
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Filip Hráček** | [filiph.net](https://filiph.net) | Former Flutter Team Member • *The Boring Show* |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Filip Hráček** | [filiph.net](https://filiph.net) | [GitHub](https://github.com/filiph) | Former Flutter Team Member • *The Boring Show* |
 
 ---
 
 ## NORWAY
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Majid Hajian** | [flutterengineering.io](https://flutterengineering.io) | Flutter GDE • Book Author • Flutter Engineering Hub |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Majid Hajian** | [flutterengineering.io](https://flutterengineering.io) | [GitHub](https://github.com/mhadaily) | Flutter GDE • Book Author • Flutter Engineering Hub |
 
 ---
 
 ## PERU
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Diego Velásquez** | [diegoveloper.com](https://www.diegoveloper.com) | Flutter GDE • Open-Source UI Packages Creator |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Diego Velásquez** | [diegoveloper.com](https://www.diegoveloper.com) | [GitHub](https://github.com/diegoveloper) | Flutter GDE • Open-Source UI Packages Creator |
 
 ---
 
 ## ZAMBIA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Chalwe Chisela** | [chalwe.com](https://chalwe.com) | Senior Software Engineer • Flutter & Golang |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Chalwe Chisela** | [chalwe.com](https://chalwe.com) | [GitHub](https://github.com/chalwe) | Senior Software Engineer • Flutter & Golang |
 
 ---
 
 ## SYRIA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Roaa Khaddam** | [Roaa94](https://github.com/Roaa94) | Flutter GDE • Advanced Custom Painters & UI Systems |
-| **Abdalwahed Aldaghir** | [awrs.me/en](https://awrs.me/en) | Mobile & Flutter Engineer |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Roaa Khaddam** | [Roaa94](https://github.com/Roaa94) | [GitHub](https://github.com/Roaa94) | Flutter GDE • Advanced Custom Painters & UI Systems |
+| **Abdalwahed Aldaghir** | [awrs.me/en](https://awrs.me/en) | [GitHub](https://github.com/awrs) | Mobile & Flutter Engineer |
 
 ---
 
 ## MONGOLIA
 
-| Developer | Portfolio / Live Link | Focus & Highlights |
-|---|---|---|
-| **Suragch** | [suragch.dev](https://suragch.dev) | Flutter Package Author • Mongolian Text Rendering |
+| Developer | Portfolio | Code | Focus & Highlights |
+|---|---|:---:|---|
+| **Suragch** | [suragch.dev](https://suragch.dev) | [GitHub](https://github.com/suragch) | Flutter Package Author • Mongolian Text Rendering |
 
 ---
 
@@ -276,15 +276,15 @@ Click the **Fork** button at the top-right corner of this repository page to cre
    - *If your country is not listed yet, add a new section in UPPERCASE using `## COUNTRYNAME`.*
 
 ### Step 3: Add Your Info
-Add a new row to the country table using this format:
+Add a new row to the country table using this 4-column format:
 
 ```markdown
-| **Your Name** | [your-portfolio-link.com](https://your-portfolio-link.com) | Key Skills • State Management • Highlights |
+| **Your Name** | [your-portfolio-link.com](https://your-portfolio-link.com) | [Source / GitHub](https://github.com/yourusername) | Key Skills • State Management • Highlights |
 ```
 
 **Example:**
 ```markdown
-| **John Doe** | [johndoe.dev](https://johndoe.dev) | Flutter • BLoC • Firebase • Clean Architecture |
+| **John Doe** | [johndoe.dev](https://johndoe.dev) | [Source](https://github.com/johndoe/portfolio) | Flutter • BLoC • Firebase • Clean Architecture |
 ```
 
 ### Step 4: Commit Your Changes
