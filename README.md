@@ -1,41 +1,26 @@
-<div align="center">
+# Flutter Developer Portfolios
 
-# 💙 Flutter Developer Portfolios
+A curated global directory of real-world developer portfolios built with or showcasing Flutter & Dart.
 
-<p align="center">
-  <strong>A curated global directory of real-world developer portfolios built with or showcasing Flutter & Dart.</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge" alt="Contributions Welcome" />
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" />
-</p>
-
-<p align="center">
-  Explore how Flutter engineers worldwide design their personal brands, showcase cross-platform applications, and push the boundaries of <b>Flutter Web</b>.
-</p>
-
-</div>
+Explore how Flutter engineers worldwide design their personal brands, showcase cross-platform applications, and push the boundaries of Flutter Web.
 
 ---
 
-## 🗺️ Explore by Country
+## Explore by Country
 
 Jump straight to developers from your region or find international talent:
 
 | Region | Countries |
 |---|---|
-| **South Asia** | [🇵🇰 Pakistan](#-pakistan) • [🇮🇳 India](#-india) • [🇧🇩 Bangladesh](#-bangladesh) • [🇳🇵 Nepal](#-nepal) • [🇱🇰 Sri Lanka](#-sri-lanka) |
-| **Americas** | [🇺🇸 United States](#-united-states) • [🇧🇷 Brazil](#-brazil) • [🇵🇪 Peru](#-peru) |
-| **Europe** | [🇩🇪 Germany](#-germany) • [🇬🇧 United Kingdom](#-united-kingdom) • [🇮🇹 Italy](#-italy) • [🇫🇷 France](#-france) • [🇸🇪 Sweden](#-sweden) • [🇱🇹 Lithuania](#-lithuania) • [🇨🇿 Czech Republic](#-czech-republic) • [🇳🇴 Norway](#-norway) |
-| **Middle East & Africa** | [🇪🇬 Egypt](#-egypt) • [🇳🇬 Nigeria & 🇬🇭 Ghana](#-nigeria--ghana) • [🇿🇲 Zambia](#-zambia) • [🇸🇾 Syria](#-syria) • [🇹🇷 Turkey](#-turkey) |
-| **East & Southeast Asia** | [🇻🇳 Vietnam](#-vietnam) • [🇮🇩 Indonesia](#-indonesia) • [🇵🇭 Philippines](#-philippines) • [🇲🇳 Mongolia](#-mongolia) |
+| **South Asia** | [PAKISTAN](#pakistan) • [INDIA](#india) • [BANGLADESH](#bangladesh) • [NEPAL](#nepal) • [SRI LANKA](#sri-lanka) |
+| **Americas** | [UNITED STATES](#united-states) • [BRAZIL](#brazil) • [PERU](#peru) |
+| **Europe** | [GERMANY](#germany) • [UNITED KINGDOM](#united-kingdom) • [ITALY](#italy) • [FRANCE](#france) • [SWEDEN](#sweden) • [LITHUANIA](#lithuania) • [CZECH REPUBLIC](#czech-republic) • [NORWAY](#norway) |
+| **Middle East & Africa** | [EGYPT](#egypt) • [NIGERIA](#nigeria) • [GHANA](#ghana) • [ZAMBIA](#zambia) • [SYRIA](#syria) • [TURKEY](#turkey) |
+| **East & Southeast Asia** | [VIETNAM](#vietnam) • [INDONESIA](#indonesia) • [PHILIPPINES](#philippines) • [MONGOLIA](#mongolia) |
 
 ---
 
-## 🇵🇰 Pakistan
+## PAKISTAN
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -50,7 +35,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇮🇳 India
+## INDIA
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -68,7 +53,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇧🇩 Bangladesh
+## BANGLADESH
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -79,7 +64,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇺🇸 United States
+## UNITED STATES
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -89,7 +74,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇩🇪 Germany
+## GERMANY
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -100,7 +85,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇬🇧 United Kingdom
+## UNITED KINGDOM
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -110,7 +95,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇪🇬 Egypt
+## EGYPT
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -120,16 +105,23 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇳🇬 Nigeria & 🇬🇭 Ghana
+## NIGERIA
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
-| **David Cobbina** (🇬🇭) | [davidcobbina.com](https://davidcobbina.com) | Creator of *Aerium* • Award-grade Flutter Web Design |
-| **Desmond Sanctity** (🇳🇬) | [Portfolio Repo](https://github.com/DesmondSanctity/flutter-dev-portfolio) | Clean Modular Portfolio Template for Flutter Devs |
+| **Desmond Sanctity** | [Portfolio Repo](https://github.com/DesmondSanctity/flutter-dev-portfolio) | Clean Modular Portfolio Template for Flutter Devs |
 
 ---
 
-## 🇧🇷 Brazil
+## GHANA
+
+| Developer | Portfolio / Live Link | Focus & Highlights |
+|---|---|---|
+| **David Cobbina** | [davidcobbina.com](https://davidcobbina.com) | Creator of *Aerium* • Award-grade Flutter Web Design |
+
+---
+
+## BRAZIL
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -138,7 +130,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇮🇹 Italy
+## ITALY
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -147,7 +139,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇫🇷 France
+## FRANCE
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -156,7 +148,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇹🇷 Turkey
+## TURKEY
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -164,7 +156,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇻🇳 Vietnam
+## VIETNAM
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -173,7 +165,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇵🇭 Philippines
+## PHILIPPINES
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -181,7 +173,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇮🇩 Indonesia
+## INDONESIA
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -189,7 +181,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇳🇵 Nepal
+## NEPAL
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -197,7 +189,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇱🇰 Sri Lanka
+## SRI LANKA
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -205,7 +197,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇸🇪 Sweden
+## SWEDEN
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -213,7 +205,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇱🇹 Lithuania
+## LITHUANIA
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -221,7 +213,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇨🇿 Czech Republic
+## CZECH REPUBLIC
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -229,7 +221,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇳🇴 Norway
+## NORWAY
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -237,7 +229,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇵🇪 Peru
+## PERU
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -245,7 +237,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇿🇲 Zambia
+## ZAMBIA
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -253,7 +245,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇸🇾 Syria
+## SYRIA
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -262,7 +254,7 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🇲🇳 Mongolia
+## MONGOLIA
 
 | Developer | Portfolio / Live Link | Focus & Highlights |
 |---|---|---|
@@ -270,22 +262,47 @@ Jump straight to developers from your region or find international talent:
 
 ---
 
-## 🤝 How to Add Your Portfolio
+## How to Add Your Portfolio
 
-We welcome all **Flutter & Dart developers**! To get listed:
+Adding your Flutter portfolio takes less than 2 minutes! You can do it directly in your browser on GitHub:
 
-1. **Fork** this repository.
-2. Find your **Country** section (or add a new country section with its flag if it doesn't exist yet).
-3. Add a new row to the table with:
-   ```markdown
-   | **Your Name** | [your-portfolio.com](https://your-portfolio.com) | Your Core Tech Stack & Focus |
-   ```
-4. Submit a **Pull Request** with the title: `feat: add <Your Name> portfolio (<Country>)`.
+### Step 1: Fork this Repository
+Click the **Fork** button at the top-right corner of this repository page to create your own copy.
 
-> ⚠️ **Quality Guideline:** Submissions must be personal developer portfolios showcasing real Flutter/Dart expertise or built with Flutter Web.
+### Step 2: Edit `README.md`
+1. Open the `README.md` file in your forked repository.
+2. Click the **pencil icon** (Edit this file) on GitHub.
+3. Scroll down to find your **COUNTRY** section (e.g., `PAKISTAN`, `INDIA`, `UNITED STATES`).
+   - *If your country is not listed yet, add a new section in UPPERCASE using `## COUNTRYNAME`.*
+
+### Step 3: Add Your Info
+Add a new row to the country table using this format:
+
+```markdown
+| **Your Name** | [your-portfolio-link.com](https://your-portfolio-link.com) | Key Skills • State Management • Highlights |
+```
+
+**Example:**
+```markdown
+| **John Doe** | [johndoe.dev](https://johndoe.dev) | Flutter • BLoC • Firebase • Clean Architecture |
+```
+
+### Step 4: Commit Your Changes
+Scroll down to the **Commit changes** box, write a message like:
+```text
+Add John Doe portfolio (USA)
+```
+Click **Commit changes**.
+
+### Step 5: Open a Pull Request (PR)
+1. Go to your forked repository's main page.
+2. Click **Contribute** → **Open pull request**.
+3. Click **Create pull request**.
+
+🎉 Once reviewed, your portfolio will be merged into the official list!
 
 ---
 
-<div align="center">
-  <sub>Maintained with 💙 by the Flutter Community. Don't forget to star ⭐ this repository!</sub>
-</div>
+### Submission Guidelines
+- **Flutter Only:** Your portfolio must showcase real Flutter/Dart projects or be built using Flutter Web.
+- **Working Links:** Ensure your portfolio URL is live and publicly accessible.
