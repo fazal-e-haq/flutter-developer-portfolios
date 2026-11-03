@@ -1,8 +1,12 @@
 # Flutter Developer Portfolios
 
+[![Link Checker](https://github.com/fazal-e-haq/flutter-developer-portfolios/actions/workflows/link-checker.yml/badge.svg)](https://github.com/fazal-e-haq/flutter-developer-portfolios/actions/workflows/link-checker.yml)
+
 A curated global directory of real-world developer portfolios built with or showcasing Flutter & Dart.
 
 Explore how Flutter engineers worldwide design their personal brands, showcase cross-platform applications, and push the boundaries of Flutter Web.
+
+🌐 **Interactive Web Directory:** [fazal-e-haq.github.io/flutter-developer-portfolios](https://fazal-e-haq.github.io/flutter-developer-portfolios/)
 
 ---
 
@@ -312,3 +316,13 @@ Click **Commit changes**.
 ### Submission Guidelines
 - **Flutter Only:** Your portfolio must showcase real Flutter/Dart projects or be built using Flutter Web.
 - **Working Links:** Ensure your portfolio URL is live and publicly accessible.
+
+---
+
+## Contributors
+
+A huge thank you to everyone who has contributed their portfolio or helped maintain this directory! 💙
+
+<a href="https://github.com/fazal-e-haq/flutter-developer-portfolios/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=fazal-e-haq/flutter-developer-portfolios" alt="Contributors Wall" />
+</a>

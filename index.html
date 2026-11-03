@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flutter Developer Portfolios | Global Directory</title>
+  <meta name="description" content="A curated global directory of real-world developer portfolios built with or showcasing Flutter & Dart.">
+  <meta property="og:title" content="Flutter Developer Portfolios">
+  <meta property="og:description" content="Explore how Flutter engineers worldwide design their personal brands and push the boundaries of Flutter Web.">
+  <meta property="og:url" content="https://fazal-e-haq.github.io/flutter-developer-portfolios/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0A0E17;
+      --card-bg: #121826;
+      --card-border: rgba(255, 255, 255, 0.08);
+      --card-hover: rgba(2, 86, 155, 0.15);
+      --primary: #02569B;
+      --primary-light: #0175C2;
+      --accent: #54C5F8;
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --pill-bg: rgba(255, 255, 255, 0.05);
+      --pill-active-bg: #0175C2;
+      --tag-bg: rgba(84, 197, 248, 0.1);
+      --tag-color: #54C5F8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Navigation */
+    header {
+      border-bottom: 1px solid var(--card-border);
+      background: rgba(10, 14, 23, 0.85);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 800;
+      font-size: 1.15rem;
+    }
+
+    .brand svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.55rem 1rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #02569B 0%, #0175C2 100%);
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(1, 117, 194, 0.35);
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 6px 20px rgba(1, 117, 194, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: var(--pill-bg);
+      color: var(--text);
+      border: 1px solid var(--card-border);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Hero Section */
+    .hero {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(84, 197, 248, 0.1);
+      border: 1px solid rgba(84, 197, 248, 0.25);
+      color: var(--accent);
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #FFFFFF 30%, #94A3B8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto 2rem;
+    }
+
+    /* Search & Filter Controls */
+    .search-box {
+      max-width: 640px;
+      margin: 0 auto 2rem;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 0.95rem 1.25rem 0.95rem 3rem;
+      border-radius: 12px;
+      color: var(--text);
+      font-size: 1rem;
+      outline: none;
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+
+    .search-box input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(84, 197, 248, 0.2);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 1.1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      width: 20px;
+      height: 20px;
+    }
+
+    /* Country Filter Pills */
+    .filters {
+      max-width: 1200px;
+      margin: 0 auto 2rem;
+      padding: 0 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+
+    .filter-pill {
+      background: var(--pill-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 0.4rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.825rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .filter-pill:hover {
+      color: var(--text);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .filter-pill.active {
+      background: var(--primary-light);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    /* Stats Bar */
+    .stats-bar {
+      max-width: 1200px;
+      margin: 0 auto 1.5rem;
+      padding: 0 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    /* Cards Grid */
+    main {
+      flex: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+      width: 100%;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(84, 197, 248, 0.4);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+    }
+
+    .card-top {
+      margin-bottom: 1.25rem;
+    }
+
+    .card-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+      gap: 0.5rem;
+    }
+
+    .dev-name {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .country-tag {
+      background: rgba(2, 86, 155, 0.3);
+      border: 1px solid rgba(1, 117, 194, 0.4);
+      color: var(--accent);
+      font-size: 0.725rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+    }
+
+    .tags-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.75rem;
+    }
+
+    .tag-badge {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: #CBD5E1;
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 0.6rem;
+      margin-top: auto;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .card-btn {
+      flex: 1;
+      text-align: center;
+      padding: 0.55rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      transition: all 0.2s ease;
+    }
+
+    .card-btn-primary {
+      background: #0175C2;
+      color: #fff;
+    }
+
+    .card-btn-primary:hover {
+      background: #02569B;
+    }
+
+    .card-btn-ghost {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-muted);
+      border: 1px solid var(--card-border);
+    }
+
+    .card-btn-ghost:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 4rem 1.5rem;
+      grid-column: 1 / -1;
+    }
+
+    .empty-state h3 {
+      font-size: 1.35rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .empty-state p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        padding: 2.5rem 1rem 1.5rem;
+      }
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M14.314 0L2.3 12.014l3.7 3.702L18.016 3.702 14.314 0z" fill="#54C5F8"/>
+          <path d="M14.314 10.999L6.918 18.396l3.702 3.703 3.696-3.703 5.372-5.397H14.314z" fill="#29B6F6"/>
+          <path d="M9.62 15.698l2.696 2.696 2.694-2.696-2.694-2.696-2.696 2.696z" fill="#01579B"/>
+        </svg>
+        <span>Flutter Portfolios</span>
+      </a>
+      <div class="nav-actions">
+        <a href="https://github.com/fazal-e-haq/flutter-developer-portfolios" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://github.com/fazal-e-haq/flutter-developer-portfolios#how-to-add-your-portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          + Add Yours
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">
+      <span>💙 100% Curated for Flutter & Dart</span>
+    </div>
+    <h1>Global Flutter Developer Portfolios</h1>
+    <p>Discover talented Flutter mobile and web engineers, explore real-world Flutter Web implementations, and find inspiration for your next portfolio.</p>
+
+    <!-- Search Box -->
+    <div class="search-box">
+      <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+      <input type="text" id="searchInput" placeholder="Search by name, country (e.g. Pakistan, USA), or technology (e.g. Riverpod, BLoC)..." autofocus>
+    </div>
+  </section>
+
+  <!-- Filter Pills -->
+  <section class="filters" id="filtersContainer"></section>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <span id="resultsCount">Showing all developers</span>
+    <span>Auto-verified weekly ⚡</span>
+  </div>
+
+  <!-- Cards Grid -->
+  <main>
+    <div class="cards-grid" id="cardsGrid"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Curated with 💙 by <a href="https://fazal-portfolio.web.app" target="_blank">Fazal-e-Haq</a> & the Global Flutter Community.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.775rem;">Want to feature your portfolio? <a href="https://github.com/fazal-e-haq/flutter-developer-portfolios" target="_blank">Submit a Pull Request</a> on GitHub.</p>
+  </footer>
+
+  <script>
+    const developers = [{"name": "Fazal-e-Haq", "country": "PAKISTAN", "portfolio": "https://fazal-portfolio.web.app", "code": "https://github.com/fazal-e-haq", "codeLabel": "GitHub", "tags": "Mobile & Web Apps • Flutter • Firebase • Interactive UI"}, {"name": "Muhammad Hamza", "country": "PAKISTAN", "portfolio": "https://mhmz.dev", "code": "https://github.com/mhmzdev", "codeLabel": "GitHub", "tags": "AI & Product Engineer • Flutter Community Lead • Dart"}, {"name": "Huzaifa Altaf", "country": "PAKISTAN", "portfolio": "https://huzaifaaltaf.tech", "code": "https://github.com/Huzaifa-Altaf", "codeLabel": "GitHub", "tags": "Senior Flutter Developer • Clean Architecture • BLoC"}, {"name": "Hamad Anwar", "country": "PAKISTAN", "portfolio": "https://github.com/Hamad-Anwar/Flutter-Responsive-Portfolio-WebApp", "code": "https://github.com/Hamad-Anwar/Flutter-Responsive-Portfolio-WebApp", "codeLabel": "Source", "tags": "Flutter Responsive Web App • Multi-device scaling"}, {"name": "Inam Ullah", "country": "PAKISTAN", "portfolio": "https://inamullah06.github.io", "code": "https://github.com/inamullah06", "codeLabel": "GitHub", "tags": "Mobile App Developer • Dart • State Management"}, {"name": "Tauqeer Ahmed", "country": "PAKISTAN", "portfolio": "https://tauqeerkhattak.github.io", "code": "https://github.com/tauqeerkhattak", "codeLabel": "GitHub", "tags": "Full Stack & Flutter Developer • Golang • Android"}, {"name": "Usman Ghias", "country": "PAKISTAN", "portfolio": "https://usman.codcrafters.org", "code": "https://github.com/usmanghias", "codeLabel": "GitHub", "tags": "Full Stack & Flutter Developer • ERP & Mobile"}, {"name": "Waleed Arshad", "country": "PAKISTAN", "portfolio": "https://github.com/wal33d006", "code": "https://github.com/wal33d006", "codeLabel": "GitHub", "tags": "Flutter GDE • Author of Managing State in Flutter"}, {"name": "Mudit Purohit", "country": "INDIA", "portfolio": "https://muditpurohit.tech", "code": "https://github.com/Mudit200408/Material3E-Portfolio-Website", "codeLabel": "Source", "tags": "Material 3 Expressive Design • Flutter Web • Supabase"}, {"name": "Aditya Thakur", "country": "INDIA", "portfolio": "https://github.com/adityathakurxd/flutter_portfolio", "code": "https://github.com/adityathakurxd/flutter_portfolio", "codeLabel": "Source", "tags": "Flutter Educator • Responsive Web Template"}, {"name": "Pooja Bhaumik", "country": "INDIA", "portfolio": "https://poojabhaumik.com", "code": "https://github.com/poojabhaumik", "codeLabel": "GitHub", "tags": "Google Developer Expert (GDE) • Mobile App Architect"}, {"name": "Meet Prajapati", "country": "INDIA", "portfolio": "https://meetprajapati.com", "code": "https://github.com/meetprajapati", "codeLabel": "GitHub", "tags": "Lead Mobile Engineer • Android & Flutter Architecture"}, {"name": "Vivek Yadav", "country": "INDIA", "portfolio": "https://github.com/VVK027/flutter_portfolio", "code": "https://github.com/VVK027/flutter_portfolio", "codeLabel": "Source", "tags": "Dynamic JSON Portfolio • Riverpod • GoRouter"}, {"name": "Yashas Majmudar", "country": "INDIA", "portfolio": "https://yashashm.dev", "code": "https://github.com/yashashm", "codeLabel": "GitHub", "tags": "Flutter Developer • AI & Full-Stack Systems"}, {"name": "Zeel Bhanderi", "country": "INDIA", "portfolio": "https://zeelbhanderi.netlify.app", "code": "https://github.com/zeelbhanderi", "codeLabel": "GitHub", "tags": "Flutter & FlutterFlow Specialist • Fast Prototyping"}, {"name": "Purnendu Samanta", "country": "INDIA", "portfolio": "https://purnendusamanta.github.io/MyPortfolio/", "code": "https://github.com/purnendusamanta", "codeLabel": "GitHub", "tags": "Android & Cross-Platform Mobile Engineer"}, {"name": "Chrisbin Sunny", "country": "INDIA", "portfolio": "https://github.com/chrisbinsunny/chrishub", "code": "https://github.com/chrisbinsunny/chrishub", "codeLabel": "Source", "tags": "macOS Big Sur Interactive Desktop Simulator in Flutter"}, {"name": "Giridharan S", "country": "INDIA", "portfolio": "https://github.com/GiridharanS1729/flutter-portfolio", "code": "https://github.com/GiridharanS1729/flutter-portfolio", "codeLabel": "Source", "tags": "Modern Animated Portfolio • UI/UX Specialist"}, {"name": "Tushar Nikam", "country": "INDIA", "portfolio": "https://github.com/champ96k/champ96k.com", "code": "https://github.com/champ96k/champ96k.com", "codeLabel": "Source", "tags": "Flutter Web & Mobile Engineering"}, {"name": "Razu Ahmed", "country": "BANGLADESH", "portfolio": "https://razuahmed75.github.io", "code": "https://github.com/razuahmed75", "codeLabel": "GitHub", "tags": "Senior Flutter Developer • Payment Gateways • CI/CD"}, {"name": "NM Kawcher", "country": "BANGLADESH", "portfolio": "https://nmkawcher.github.io", "code": "https://github.com/nmkawcher", "codeLabel": "GitHub", "tags": "Senior Mobile Engineer • 30+ Shipped Apps • Fintech"}, {"name": "Sadikur Rahman Sifat", "country": "BANGLADESH", "portfolio": "https://sadikur-sifat.github.io", "code": "https://github.com/sadikur-sifat", "codeLabel": "GitHub", "tags": "Clean Architecture • SOLID • Firebase & REST APIs"}, {"name": "Md. Rahimujjaman Rahim", "country": "BANGLADESH", "portfolio": "https://rahimuj570.github.io", "code": "https://github.com/rahimuj570", "codeLabel": "GitHub", "tags": "Flutter Mobile Developer • Material Design UI"}, {"name": "Craig Labenz", "country": "UNITED STATES", "portfolio": "https://craiglabenz.com", "code": "https://github.com/craiglabenz", "codeLabel": "GitHub", "tags": "Former Google Flutter DevRel • Observable Flutter Host"}, {"name": "Eric Windmill", "country": "UNITED STATES", "portfolio": "https://ericwindmill.com", "code": "https://github.com/ericwindmill", "codeLabel": "GitHub", "tags": "Author of Flutter in Action • Founder of Flutter by Example"}, {"name": "Felix Angelov", "country": "UNITED STATES", "portfolio": "https://github.com/felangel", "code": "https://github.com/felangel", "codeLabel": "GitHub", "tags": "Creator of BLoC State Management • VGV Principal"}, {"name": "Gabriel Ratener", "country": "UNITED STATES", "portfolio": "https://gabrielratener.github.io/", "code": "https://github.com/gabrielratener", "codeLabel": "GitHub", "tags": "High-Performance Cross-Platform Flutter Apps"}, {"name": "Helen Xu Yang", "country": "UNITED STATES", "portfolio": "https://helenxuyang.github.io", "code": "https://github.com/helenxuyang", "codeLabel": "GitHub", "tags": "Cornell DTI Flutter Developer • Interactive Mobile Apps"}, {"name": "Luke Pighetti", "country": "UNITED STATES", "portfolio": "https://lukepighetti.com", "code": "https://github.com/lukepighetti", "codeLabel": "GitHub", "tags": "Flutter Animations • Creator of `sprung` & UI Libraries"}, {"name": "Mario Bolaños", "country": "UNITED STATES", "portfolio": "https://mariobrubio.github.io", "code": "https://github.com/mariobrubio", "codeLabel": "GitHub", "tags": "Cross-Platform Flutter Mobile & Web Engineer"}, {"name": "Mitch Koko", "country": "UNITED STATES", "portfolio": "https://mitchkoko.app", "code": "https://github.com/mitchkoko", "codeLabel": "GitHub", "tags": "Flutter Educator • App Monetization & Clean UI"}, {"name": "Rody Davis", "country": "UNITED STATES", "portfolio": "https://rodydavis.com", "code": "https://github.com/rodydavis", "codeLabel": "GitHub", "tags": "Flutter Web & Desktop Engineer • Canvas Graphics"}, {"name": "Pascal Welsch", "country": "GERMANY", "portfolio": "https://pascalwelsch.com", "code": "https://github.com/passsy", "codeLabel": "GitHub", "tags": "Flutter GDE • Wiredash Co-founder • Tooling"}, {"name": "Till Friebe", "country": "GERMANY", "portfolio": "https://friebetill.github.io", "code": "https://github.com/friebetill", "codeLabel": "GitHub", "tags": "Software Engineer • Creator of TubeCards (Flutter)"}, {"name": "Esra Kadah", "country": "GERMANY", "portfolio": "https://github.com/esrakadah", "code": "https://github.com/esrakadah", "codeLabel": "GitHub", "tags": "Flutter GDE • Co-author Flutter Design Patterns"}, {"name": "Brian Egan", "country": "GERMANY", "portfolio": "https://github.com/brianegan", "code": "https://github.com/brianegan", "codeLabel": "GitHub", "tags": "Flutter Architecture Samples • Redux for Dart"}, {"name": "Muhammad Ghufran Naseer", "country": "UNITED KINGDOM", "portfolio": "https://muhammadghufrannaseer.github.io", "code": "https://github.com/muhammadghufrannaseer", "codeLabel": "GitHub", "tags": "Full Stack & Cross-Platform Mobile Engineer"}, {"name": "Ashish Mandaliya", "country": "UNITED KINGDOM", "portfolio": "https://ashishmandaliya.github.io", "code": "https://github.com/ashishmandaliya", "codeLabel": "GitHub", "tags": "Senior Mobile Engineer • Flutter, iOS & Android"}, {"name": "Simon Lightfoot", "country": "UNITED KINGDOM", "portfolio": "https://www.devangels.london", "code": "https://github.com/slightfoot", "codeLabel": "GitHub", "tags": "The Boring Flutter Show Co-host • Flutter Architect"}, {"name": "Salah Yasser", "country": "EGYPT", "portfolio": "https://salahyasser.github.io", "code": "https://github.com/salahyasser", "codeLabel": "GitHub", "tags": "Clean Architecture • BLoC • RTL & Bilingual Apps"}, {"name": "Mina Nabil", "country": "EGYPT", "portfolio": "https://mina-nabil-dev.github.io", "code": "https://github.com/mina-nabil-dev", "codeLabel": "GitHub", "tags": "Mobile & Web Flutter Apps • Supabase Integration"}, {"name": "Ahmed Ghaly", "country": "EGYPT", "portfolio": "https://github.com/ahmedghaly15/Personal-Portfolio", "code": "https://github.com/ahmedghaly15/Personal-Portfolio", "codeLabel": "Source", "tags": "Responsive Web Portfolio • Dart & Flutter"}, {"name": "Desmond Sanctity", "country": "NIGERIA", "portfolio": "https://github.com/DesmondSanctity/flutter-dev-portfolio", "code": "https://github.com/DesmondSanctity/flutter-dev-portfolio", "codeLabel": "Source", "tags": "Clean Modular Portfolio Template for Flutter Devs"}, {"name": "David Cobbina", "country": "GHANA", "portfolio": "https://davidcobbina.com", "code": "https://github.com/david-legend/aerium", "codeLabel": "Source", "tags": "Creator of Aerium • Award-grade Flutter Web Design"}, {"name": "Adriel de Souza", "country": "BRAZIL", "portfolio": "https://adrieldesouza.github.io", "code": "https://github.com/adrieldesouza", "codeLabel": "GitHub", "tags": "Multi-platform Mobile Developer • Flutter & Swift"}, {"name": "Gabriel Bazante", "country": "BRAZIL", "portfolio": "https://gabrielbazante.github.io", "code": "https://github.com/gabrielbazante", "codeLabel": "GitHub", "tags": "Mobile App Developer • Flutter Cross-Platform"}, {"name": "Arcangelo Massari", "country": "ITALY", "portfolio": "https://arcangelo7.github.io/portfolio/", "code": "https://github.com/arcangelo7/portfolio", "codeLabel": "Source", "tags": "Cross-Platform Material 3 Portfolio • Web & Desktop"}, {"name": "Andrea Bizzotto", "country": "ITALY", "portfolio": "https://codewithandrea.com", "code": "https://github.com/bizz84", "codeLabel": "GitHub", "tags": "Flutter GDE • Architecture Specialist & Educator"}, {"name": "Mahdi Saiah", "country": "FRANCE", "portfolio": "https://mahdisaiah.github.io", "code": "https://github.com/mahdisaiah", "codeLabel": "GitHub", "tags": "Product Designer & Developer • Flutter & Supabase"}, {"name": "Romain Rastel", "country": "FRANCE", "portfolio": "https://github.com/letsar", "code": "https://github.com/letsar", "codeLabel": "GitHub", "tags": "Open-Source Author • `flutter_staggered_grid_view`"}, {"name": "Emre Akçadağ", "country": "TURKEY", "portfolio": "https://akcadag.dev", "code": "https://github.com/akcadag", "codeLabel": "GitHub", "tags": "Mobile Developer • Native Android & Flutter"}, {"name": "Tien Truong (Mars)", "country": "VIETNAM", "portfolio": "https://marstruong.com", "code": "https://github.com/marstruong", "codeLabel": "GitHub", "tags": "Flutter Developer • Cross-Platform Mobile Apps"}, {"name": "ChickyHuynh", "country": "VIETNAM", "portfolio": "https://chickyhuynhprojects.xo.je", "code": "https://github.com/ChickyHuynh", "codeLabel": "GitHub", "tags": "Flutter Mobile & Web Projects Showcase"}, {"name": "Daven Alajid", "country": "PHILIPPINES", "portfolio": "https://www.garlicbread.space", "code": "https://github.com/davennn", "codeLabel": "GitHub", "tags": "Web & Mobile Developer • Flutter & Laravel"}, {"name": "Anugrah Surya Putra", "country": "INDONESIA", "portfolio": "https://downormal.dev", "code": "https://github.com/downormal", "codeLabel": "GitHub", "tags": "Mobile Engineer • Flutter & Kotlin Multiplatform"}, {"name": "Aakash Rajbanshi", "country": "NEPAL", "portfolio": "https://aakashrajbanshi.com.np", "code": "https://github.com/aakashrajbanshi", "codeLabel": "GitHub", "tags": "Flutter Developer • Clean Architecture & State"}, {"name": "Chamindu Wn", "country": "SRI LANKA", "portfolio": "https://chamindu-wn.vercel.app", "code": "https://github.com/chamindu-wn", "codeLabel": "GitHub", "tags": "Full Stack & Mobile App Developer • Flutter"}, {"name": "Lukas Klingsbo", "country": "SWEDEN", "portfolio": "https://lukas.fyi", "code": "https://github.com/spydon", "codeLabel": "GitHub", "tags": "Flutter GDE • Supabase SDK • Creator of Flame Engine"}, {"name": "Mangirdas Kazlauskas", "country": "LITHUANIA", "portfolio": "https://kazlauskas.dev", "code": "https://github.com/mkobuolys", "codeLabel": "GitHub", "tags": "Flutter GDE • Author of Flutter Design Patterns"}, {"name": "Filip Hráček", "country": "CZECH REPUBLIC", "portfolio": "https://filiph.net", "code": "https://github.com/filiph", "codeLabel": "GitHub", "tags": "Former Flutter Team Member • The Boring Show"}, {"name": "Majid Hajian", "country": "NORWAY", "portfolio": "https://flutterengineering.io", "code": "https://github.com/mhadaily", "codeLabel": "GitHub", "tags": "Flutter GDE • Book Author • Flutter Engineering Hub"}, {"name": "Diego Velásquez", "country": "PERU", "portfolio": "https://www.diegoveloper.com", "code": "https://github.com/diegoveloper", "codeLabel": "GitHub", "tags": "Flutter GDE • Open-Source UI Packages Creator"}, {"name": "Chalwe Chisela", "country": "ZAMBIA", "portfolio": "https://chalwe.com", "code": "https://github.com/chalwe", "codeLabel": "GitHub", "tags": "Senior Software Engineer • Flutter & Golang"}, {"name": "Roaa Khaddam", "country": "SYRIA", "portfolio": "https://github.com/Roaa94", "code": "https://github.com/Roaa94", "codeLabel": "GitHub", "tags": "Flutter GDE • Advanced Custom Painters & UI Systems"}, {"name": "Abdalwahed Aldaghir", "country": "SYRIA", "portfolio": "https://awrs.me/en", "code": "https://github.com/awrs", "codeLabel": "GitHub", "tags": "Mobile & Flutter Engineer"}, {"name": "Suragch", "country": "MONGOLIA", "portfolio": "https://suragch.dev", "code": "https://github.com/suragch", "codeLabel": "GitHub", "tags": "Flutter Package Author • Mongolian Text Rendering"}];
+
+    let activeCountry = 'ALL';
+    let searchQuery = '';
+
+    const cardsGrid = document.getElementById('cardsGrid');
+    const filtersContainer = document.getElementById('filtersContainer');
+    const searchInput = document.getElementById('searchInput');
+    const resultsCount = document.getElementById('resultsCount');
+
+    // Extract unique countries
+    const countries = ['ALL', ...Array.from(new Set(developers.map(d => d.country))).sort()];
+
+    // Render filter pills
+    function renderFilters() {
+      filtersContainer.innerHTML = countries.map(c => `
+        <button class="filter-pill ${c === activeCountry ? 'active' : ''}" onclick="selectCountry('${c}')">
+          ${c === 'ALL' ? '🌍 All Countries' : c}
+        </button>
+      `).join('');
+    }
+
+    function selectCountry(country) {
+      activeCountry = country;
+      renderFilters();
+      renderCards();
+    }
+
+    // Filter & render cards
+    function renderCards() {
+      const filtered = developers.filter(dev => {
+        const matchesCountry = (activeCountry === 'ALL' || dev.country === activeCountry);
+        const searchTerms = `${dev.name} ${dev.country} ${dev.tags}`.toLowerCase();
+        const matchesSearch = searchTerms.includes(searchQuery.toLowerCase());
+        return matchesCountry && matchesSearch;
+      });
+
+      resultsCount.textContent = `Showing ${filtered.length} developer${filtered.length === 1 ? '' : 's'}`;
+
+      if (filtered.length === 0) {
+        cardsGrid.innerHTML = `
+          <div class="empty-state">
+            <h3>No Flutter developers found</h3>
+            <p>We couldn't find anyone matching "${searchQuery}". Want to be the first?</p>
+            <a href="https://github.com/fazal-e-haq/flutter-developer-portfolios#how-to-add-your-portfolio" target="_blank" class="btn btn-primary">+ Add Your Portfolio</a>
+          </div>
+        `;
+        return;
+      }
+
+      cardsGrid.innerHTML = filtered.map(dev => {
+        const tagList = dev.tags.split(/[•,]/).map(t => t.trim()).filter(Boolean);
+        return `
+          <div class="card">
+            <div class="card-top">
+              <div class="card-header-row">
+                <div class="dev-name">${dev.name}</div>
+                <div class="country-tag">${dev.country}</div>
+              </div>
+              <div class="tags-container">
+                ${tagList.map(tag => `<span class="tag-badge">${tag}</span>`).join('')}
+              </div>
+            </div>
+            <div class="card-actions">
+              <a href="${dev.portfolio}" target="_blank" rel="noopener noreferrer" class="card-btn card-btn-primary">
+                🌐 Live Portfolio
+              </a>
+              <a href="${dev.code}" target="_blank" rel="noopener noreferrer" class="card-btn card-btn-ghost">
+                📂 ${dev.codeLabel || 'GitHub'}
+              </a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Search input listener
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim();
+      renderCards();
+    });
+
+    // Initialize
+    renderFilters();
+    renderCards();
+  </script>
+</body>
+</html>

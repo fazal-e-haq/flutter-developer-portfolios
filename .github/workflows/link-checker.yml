@@ -10,6 +10,10 @@ on:
     - cron: '0 0 * * 0'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   check-links:
     runs-on: ubuntu-latest
@@ -19,6 +23,17 @@ jobs:
 
       - name: Verify Portfolio Links with Lychee
         uses: lycheeverse/lychee-action@v2
+        id: lychee
         with:
           args: --verbose --no-progress --timeout 20 --max-retries 3 'README.md'
-          fail: false
+          output: ./lychee-out.md
+          # Reject pull requests automatically if any submitted link is dead
+          fail: ${{ github.event_name == 'pull_request' }}
+
+      - name: Create Issue on Broken Link (Scheduled Weekly Run Only)
+        if: env.lychee_exit_code != 0 && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: '🚨 Broken Link Detected in README.md'
+          content-filepath: ./lychee-out.md
+          labels: broken-link, automated
