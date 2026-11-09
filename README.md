@@ -2,9 +2,9 @@
 
 [![Link Checker](https://github.com/fazal-e-haq/flutter-developer-portfolios/actions/workflows/link-checker.yml/badge.svg)](https://github.com/fazal-e-haq/flutter-developer-portfolios/actions/workflows/link-checker.yml)
 
-A curated global directory of real-world developer portfolios built with or showcasing Flutter & Dart.
+A curated global directory of verified **Flutter & Dart developer portfolios**, categorized by country.
 
-Explore how Flutter engineers worldwide design their personal brands, showcase cross-platform applications, and push the boundaries of Flutter Web.
+> 🎯 **Strict Eligibility Requirement:** This directory is exclusively for **developers with proven Flutter & Dart engineering experience** (shipped mobile/desktop/web apps, open-source packages, or production client work). Developers are eligible regardless of what tech stack their personal portfolio website is built with (HTML, React, Astro, Next.js, Flutter Web, etc.). Simply having a website built with Flutter Web does *not* qualify if the creator is not an active Flutter/Dart developer.
 
 🌐 **Interactive Web Directory:** [fazal-e-haq.github.io/flutter-developer-portfolios](https://fazal-e-haq.github.io/flutter-developer-portfolios/)
 
@@ -294,10 +294,29 @@ Click **Commit changes**.
 
 ---
 
-### Submission Guidelines
-- **Flutter Only:** Your portfolio must showcase real Flutter/Dart projects or be built using Flutter Web.
-- **Live Websites Only:** Submissions must link directly to an active, publicly accessible live portfolio website (no demo repos or profile-only links in the portfolio column).
-- **Source / GitHub:** Provide a link to your portfolio source code or your personal GitHub profile.
+### 📋 Submission Guidelines & Eligibility
+
+To maintain directory quality, all submissions are verified against these strict criteria:
+
+1. **Proven Flutter / Dart Experience (Strict Requirement):**
+   - You must be an active Flutter & Dart developer.
+   - Your portfolio or GitHub must showcase verifiable Flutter work (e.g., shipped apps on App Store / Google Play, open-source packages, production code, or client projects).
+   - **Note:** Portfolios built using Flutter Web by non-Flutter developers (e.g., designers or web developers experimenting with Flutter Web) are **not** eligible.
+2. **Website Stack Independent:**
+   - Your personal portfolio website can be built with **any technology** (HTML/CSS, React, Astro, Next.js, Flutter Web, Hugo, etc.), as long as *you* have Flutter/Dart experience.
+3. **Active Live Website (Required):**
+   - Submissions must link directly to an active, publicly accessible live portfolio website (no demo repos, 404s, parked domains, or profile-only links in the portfolio column).
+4. **Source Code or GitHub Profile:**
+   - Provide a valid link to your portfolio source code or your personal GitHub profile.
+
+---
+
+## 🤖 Automated Weekly Verification
+
+All portfolio links in this repository are automatically monitored and verified on a weekly schedule (every Sunday at 00:00 UTC) via GitHub Actions using [Lychee](https://github.com/lycheeverse/lychee):
+- **Live Workflow Status:** [![Link Checker](https://github.com/fazal-e-haq/flutter-developer-portfolios/actions/workflows/link-checker.yml/badge.svg)](https://github.com/fazal-e-haq/flutter-developer-portfolios/actions/workflows/link-checker.yml)
+- **Check Runs & Logs:** You can inspect all historical verification runs in the [Actions tab](https://github.com/fazal-e-haq/flutter-developer-portfolios/actions/workflows/link-checker.yml).
+- **Broken Link Handling:** Dead URLs, 404s, or expired domains automatically fail PR checks and generate an automated issue for removal.
 
 ---
 
